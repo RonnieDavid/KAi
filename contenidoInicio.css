@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui comienza label presentacion como  contenido en nuestra pagina de inicio*/
+.contenidoInicio{
+    position:absolute;
+    display:block;
+    top:1000px;
+    left:0%;
+    right:0%;
+}
+
+.presentacionTitulo {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+}
+
+presentacion, p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0px 180px;
+    padding:40px 0px;
+    text-align:justify;
+    position:center;
+}
+
+@media screen and (max-width:800px) {
+    .contenidoInicio {
+        position: absolute;
+        top: 45%;
+    }
+
+    .presentacionTitulo {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    presentacion, p {
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 0px;
+        padding: 50px;
+        text-align: justify;
+        position: center;
+    }
+}
